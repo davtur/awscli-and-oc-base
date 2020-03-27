@@ -1,9 +1,8 @@
 FROM centos:centos8
 
-RUN echo "Installing AWS cli v1 and dependancies" && \
+RUN echo "Installing dependancies" && \
 yum update -y && \
 yum install wget unzip -y && \
-yum install awscli -y && \
 yum clean all -y
 
 
