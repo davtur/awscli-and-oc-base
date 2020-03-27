@@ -1,4 +1,7 @@
-FROM centos:centos8
+#FROM centos:centos8
+# use ubi image
+FROM registry.access.redhat.com/ubi8/ubi
+
 
 RUN echo "Installing dependancies" && \
 yum update -y && \
