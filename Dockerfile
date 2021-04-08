@@ -24,7 +24,7 @@ RUN echo "Installing AWS cli v2" && \
 RUN echo "Installing oc cli" && \
     mkdir /tmp/oc && \
     cd /tmp/oc && \
-    wget -O oc.tar.gz https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest-4.3/openshift-client-linux.tar.gz && \
+    wget -O oc.tar.gz https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest-4.6/openshift-client-linux.tar.gz && \
     tar  -zxvf oc.tar.gz && \
     mv oc /usr/bin/ && \
     mv kubectl /usr/bin/ && \
